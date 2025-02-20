@@ -1,0 +1,11 @@
+# Ignorar node_modules (dependências do projeto)
+node_modules/
+
+# Ignorar arquivos de build
+dist/
+
+# Ignorar cache do Parcel
+.parcel-cache/
+
+# Ignorar arquivos do npm
+package-lock.json
