@@ -1,6 +1,13 @@
 {
   "dependencies": {
-    "@faker-js/faker": "^7.6.0",
-    "@types/google.maps": "^3.58.1"
+    "@faker-js/faker": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.58.1",
+    "parcel": "^2.8.3"
+  },
+  "scripts": {
+    "dev": "parcel serve index.html",
+    "build": "parcel build index.html"
   }
 }
